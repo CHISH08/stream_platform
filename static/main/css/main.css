@@ -1,0 +1,29 @@
+input {
+    display: block;
+    width: 400px;
+    height: 40px;
+    margin: 8px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border: 1px solid #000;
+}
+
+form {
+    position: fixed;
+    top: 22%;
+    left: 35%;
+}
+
+input[type=password]:invalid{
+    border: solid 2px #FF0100;
+}
+
+#submit {
+    width: 90px;
+    height: 51px;
+    background: #FF0100;
+    float: right;
+    margin-top: 1px;
+}
