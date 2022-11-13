@@ -4,26 +4,37 @@
     <title>Данные о донатах</title>
     <link rel="shortcut icon" type="image/png" href="../../static/main/img/A.png">
     <link rel="stylesheet" href="../../static/main/css/layout.css">
+    <link rel="stylesheet" href="../../static/main/css/analyt.css">
 </head>
 <body>
+    <div id="analit">
+        <canvas id="canvas_plot" width="700" height="500"></canvas>
+        <script src="../../static/main/js/analyt.js"></script>
+    </div>
+    <div id="lenta">
+        <div id="messange">
+            <div style="border-radius: 7px; background: #C1D6EC; margin-top: 2.5%; position: absolute; margin-left: 3%;">100</div>
+            <label style="font-size: 23px; float: right; margin-top: 1.7vh; margin-right: 3%; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Ubuntu,Cantarell,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;">Круто!</label>
+        </div>
+    </div>
     <div id="cap">
         <div class="dropdown" id="menu">
             <img style="top: 0.3vh;" src="../../static/main/img/menu.png">
             <button style="position: absolute;" onclick="myFunction()" class="dropbtn"></button>
             <div id="myDropdown" class="dropdown-content">
-                <a href="#home" style="font-size: 1.9vh; font-family: 'Inter'; text-align: center; font-style: normal;">ЛИЧНЫЙ КАБИНЕТ</a>
+                <a href="./profile.html" style="font-size: 1.9vh; font-family: 'Inter'; text-align: center; font-style: normal;">ЛИЧНЫЙ КАБИНЕТ</a>
                 <hr size=6px width=170vw color="#FF0100">
                 <a href="" style="font-size: 1.9vh; font-family: 'Inter'; text-align: center; font-style: normal;">ДОНАТЫ</a>
                 <hr size=6px width=170vw color="#FF0100">
                 <a href="#config" style="font-size: 1.9vh; font-family: 'Inter'; text-align: center; font-style: normal;">НАСТРОЙКИ ПРОФИЛЯ</a>
                 <hr size=6px width=170vw color="#FF0100">
-                <a href="#pay" style="font-size: 1.9vh; font-family: 'Inter'; text-align: center; font-style: normal;">ЗАДОНАТИТЬ</a>
+                <a href="https://netmonet.co/tip/235850?mterror=not_found_entity" style="font-size: 1.9vh; font-family: 'Inter'; text-align: center; font-style: normal;">ЗАДОНАТИТЬ</a>
             </div>
         </div>
         <a href="" id="logo"><img src="../../static/main/img/Alog.png"></a>
         <div class="dropdown" id="profile">
             <img id="phot_profile" src="../../static/main/img/def_us.png">
-            <div id="nick_profile">Name</div>
+            <div id="nick_profile">XXXX_User_XXX</div>
             <img id="triangle" src="../../static/main/img/triangle.png">
             <button style="position: absolute; width: 15vw; height: 5.8vh" onclick="myFunction2()" class="dropbtn"></button>
             <div id="myDropdown2" class="dropdown-content">
@@ -34,7 +45,6 @@
         </div>
         <a href="" id="bel"><img src="../../static/main/img/bel.png"></a>
     </div>
-    
 </body>
 <head>
     <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>

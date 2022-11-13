@@ -1,0 +1,65 @@
+.block {
+    background: #E9EFF5;
+    width: 23vw;
+    height: 72vh;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    padding: 2vh;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border: 2px solid #000;
+}
+
+.block > #picture {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px;
+    margin:auto;
+    text-align: center;
+    background-image: url('../img/def_us.png');
+    background-size: cover;
+}
+
+.block > #nickname {
+    font-size: 22pt;
+    text-align: center;
+    color: #000;
+    background-color: #b6c5d4;
+    margin-top: 20%;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -khtml-border-radius: 15px;
+}
+
+
+.block ul{
+    font-size: 14pt;
+    margin-top:20%;
+}
+
+.decsription{
+    position: absolute;
+    top: 15%;
+    right: 20%;
+}
+
+.decsription #field {
+    background: #E9EFF5;
+    width: 23vw;
+    height: 72vh;
+    top: 15%;
+    left: 20%;
+    padding: 2vh;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -khtml-border-radius: 15px;
+}
