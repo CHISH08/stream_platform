@@ -1,10 +1,10 @@
 .block {
     background: #E9EFF5;
     width: 23vw;
-    height: 72vh;
+    height: 97vh;
     position: absolute;
-    top: 15%;
-    left: 25%;
+    top: 23vh;
+    left: 20%;
     padding: 2vh;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -40,21 +40,24 @@
 }
 
 
-.block ul{
-    font-size: 14pt;
-    margin-top:20%;
+#deyat {
+    background: #FF0100;
+    margin-top: 20%;
+    border-radius: 25px;
 }
+
 
 .decsription{
     position: absolute;
-    top: 15%;
+    top: 21vh;
     right: 20%;
 }
 
 .decsription #field {
+    border-color: #000;
     background: #E9EFF5;
     width: 23vw;
-    height: 72vh;
+    height: 86vh;
     top: 15%;
     left: 20%;
     padding: 2vh;
