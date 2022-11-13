@@ -3,9 +3,22 @@
 <head>
     <title>Регистрация</title>
     <link rel="shortcut icon" type="image/png" href="../../static/main/img/A.png">
-    <link rel="stylesheet" href="../../static/main/css/main.css">
+    <link rel="stylesheet" href="../../static/main/css/layout.css">
+    <link rel="stylesheet" href="../../static/main/css/reg.css">
 </head>
 <body>
+    <div id="cap">
+        <div class="dropdown" id="menu">
+            <img style="top: 0.3vh;" src="../../static/main/img/menu.png">
+            <button style="position: absolute;" class="dropbtn"></button>
+        </div>
+        <a href="" id="logo"><img src="../../static/main/img/Alog.png"></a>
+        <div class="dropdown" id="profile" style="background: #FF0100;">
+            <button style="top: 0px; position: absolute; width: 15vw; height: 5.8vh; color:black " class="dropbtn"></button>
+            <a href="./auth.html" style="color: black; text-decoration: none;"><span style="position: absolute; margin-left: 23%; top: 1vh; font-style: normal;font-family: 'Inter';">Авторизация</span></a>
+        </div>
+        <a href="" id="bel"><img src="../../static/main/img/bel.png"></a>
+    </div>
     <form action="" method="post">
         <input type="text" id="name-input" placeholder="Имя" name="us_name">
         <input type="text" id="surname-input" placeholder="Фамилия" name="us_surname">
@@ -13,8 +26,8 @@
         <input type="text" id="nick-input" placeholder="Никнейм" name="us_nik">
         <input id="password" name="password" type="password" placeholder="Пароль"  >
         <input id="password-check" name="password-check" type="password" placeholder="Подтверждение пароля" title="" >
-        <img style="margin-top: 1%; margin-left: 17%; width: 3vw; height: 4vh; position: absolute;" src="../../static/main/img/secur.png">
-        <label style="color: #546272; display: block; width: 28vw; position: absolute; margin-left: 23%;">Мы гарантируем безопасность и сохранность ваших данных</label>
+        <img id="secur" src="../../static/main/img/secur.png">
+        <label style="color: #546272; display: block; width: 27.5vw; position: absolute; margin-left: 24%;">Мы гарантируем безопасность и сохранность ваших данных</label>
         <input id="submit" name="submit" type="submit" value="Создать">
     </form>
 </body>

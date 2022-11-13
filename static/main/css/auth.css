@@ -1,0 +1,47 @@
+#reg {
+    text-decoration: none;
+    margin-top: -1vh;
+    position: absolute;
+    width: 15vw;
+    height: 6.5vh;
+    float: right;
+    margin-left: 11.5vw;
+    background: #C1D6EC;
+    border-radius: 15px;
+}
+input {
+    background: #f4f9ff;
+    float: center;
+    display: block;
+    width: 39vw;
+    height: 8.3vh;
+    margin: 13px auto;
+    top: 10%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+}
+
+form {
+    background: #E9EFF5;
+    width: 60vw;
+    height: 33vh;
+    position: fixed;
+    top: 27%;
+    left: 20%;
+    border-radius: 10px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -khtml-border-radius: 15px;
+}
+
+#submit {
+
+    width: 8vw;
+    height: 8vh;
+    background: #FF0100;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 41vw;
+}

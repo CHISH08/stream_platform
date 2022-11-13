@@ -14,7 +14,7 @@ input {
 form {
     background: #E9EFF5;
     width: 60vw;
-    height: 70vh;
+    height: 72vh;
     position: fixed;
     top: 20%;
     left: 20%;
@@ -36,4 +36,13 @@ input[type=password]:invalid{
     float: right;
     margin-top: 1px;
     margin-right: 17%;
+}
+
+#secur {
+    top: 86%;
+    margin-top: 1%;
+    margin-left: 18.5%;
+    width: 2.5vw;
+    height: 3.4vh;
+    position: absolute;
 }
