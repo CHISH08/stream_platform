@@ -1,29 +1,39 @@
 input {
+    background: #f4f9ff;
+    float: center;
     display: block;
-    width: 400px;
-    height: 40px;
-    margin: 8px;
+    width: 39vw;
+    height: 7vh;
+    margin: 13px auto;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -khtml-border-radius: 10px;
-    border: 1px solid #000;
 }
 
 form {
+    background: #E9EFF5;
+    width: 60vw;
+    height: 70vh;
     position: fixed;
-    top: 22%;
-    left: 35%;
+    top: 20%;
+    left: 20%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -khtml-border-radius: 15px;
 }
 
 input[type=password]:invalid{
     border: solid 2px #FF0100;
+
 }
 
 #submit {
-    width: 90px;
-    height: 51px;
+    width: 8vw;
+    height: 8vh;
     background: #FF0100;
     float: right;
     margin-top: 1px;
+    margin-right: 17%;
 }
